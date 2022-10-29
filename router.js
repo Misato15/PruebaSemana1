@@ -114,46 +114,45 @@ let objeto10=[{
     "Producto":20,
     } 
 ]
-  
 function tabla1(req, res){
-    res.writeHead(200,{'Content-Type':'application/plain'})            
+    res.writeHead(200,{'Content-Type':'text/plain'})            
     res.write(JSON.stringify(objeto1))
 }
 
 function tabla2(req, res){
-    res.writeHead(200,{'Content-Type':'application/plain'})            
+    res.writeHead(200,{'Content-Type':'text/plain'})            
     res.write(JSON.stringify(objeto2))
 }
 function tabla3(req, res){
-    res.writeHead(200,{'Content-Type':'application/plain'})            
+    res.writeHead(200,{'Content-Type':'text/plain'})            
     res.write(JSON.stringify(objeto3))
 }
 function tabla4(req, res){
-    res.writeHead(200,{'Content-Type':'application/plain'})            
+    res.writeHead(200,{'Content-Type':'text/plain'})            
     res.write(JSON.stringify(objeto4))
 }
 function tabla5(req, res){
-    res.writeHead(200,{'Content-Type':'application/plain'})            
+    res.writeHead(200,{'Content-Type':'application/JSON'})            
     res.write(JSON.stringify(objeto5))
 }
 function tabla6(req, res){
-    res.writeHead(200,{'Content-Type':'application/plain'})            
+    res.writeHead(200,{'Content-Type':'application/JSON'})            
     res.write(JSON.stringify(objeto6))
 }
 function tabla7(req, res){
-    res.writeHead(200,{'Content-Type':'application/plain'})            
+    res.writeHead(200,{'Content-Type':'application/JSON'})            
     res.write(JSON.stringify(objeto7))
 }
 function tabla8(req, res){
-    res.writeHead(200,{'Content-Type':'application/plain'})            
+    res.writeHead(200,{'Content-Type':'application/JSON'})            
     res.write(JSON.stringify(objeto8))
 }
 function tabla9(req, res){
-    res.writeHead(200,{'Content-Type':'application/plain'})            
+    res.writeHead(200,{'Content-Type':'application/JSON'})            
     res.write(JSON.stringify(objeto9))
 }
 function tabla10(req, res){
-    res.writeHead(200,{'Content-Type':'application/plain'})            
+    res.writeHead(200,{'Content-Type':'application/JSON'})            
     res.write(JSON.stringify(objeto10))
 }
 
