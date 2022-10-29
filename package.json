@@ -12,5 +12,8 @@
     "Nodejs"
   ],
   "author": "Salvador A. Chinchilla",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "http": "^0.0.1-security"
+  }
 }
