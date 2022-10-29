@@ -1,17 +1,18 @@
 
-
-function tabla1 (limite){
-    let i = 0;
-    for(i = 0; i < limite;i++ ){
-        let tabla  = [{
-            "Multiplicador": 1,
-            "Multiplicando": i,
-            "Producto": tabla.Multiplicador*tabla.Multiplicando
-        }]
-    }
-
+function tablaprimera(req, res,limite){
+    res.writeHead(200,{'Content-Type':'application/JSON'})
+    if (limite===1){
+        let objeto={
+            "Multiplicando":5,
+            "Multiplicador":1,
+            "Producto":5
+        }
+    res.write(JSON.stringify(objeto))
 }
+
+
 
 module.exports={
     tabla1
+    
 }

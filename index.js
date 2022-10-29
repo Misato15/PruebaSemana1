@@ -1,13 +1,20 @@
 const http = require('http')
 HOST = 'localhost'
+const router = require('./router.js')
 PORT = 8081
+const [,,parametro1]=process.argvs
+//const [,formato] = parametro1.split('=')
+const [,limite] = parametro1.split('=')
 
 const server = http.createServer(function(peticion, respuesta){
 
 
-    switch(peticion.utl){
+    switch(peticion.url){
 
         case '/1':
+        router.tablaprimera(peticion,respuesta,limite)
+    
+        
         break
 
         case '/2':
