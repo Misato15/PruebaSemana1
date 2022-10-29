@@ -1,0 +1,16 @@
+{
+  "name": "pruebasemana1",
+  "version": "0.0.1",
+  "description": "\"Tablas de multiplicar\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Tablas",
+    "Multiplicar",
+    "Nodejs"
+  ],
+  "author": "Salvador A. Chinchilla",
+  "license": "ISC"
+}
